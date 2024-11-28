@@ -9,3 +9,16 @@
     background-color: aqua;
     color: black;
 }
+
+.custom-button {
+    background-color: rgba(19, 136, 46, 0.562); /* বাটনের ব্যাকগ্রাউন্ড রঙ */
+    color: white; /* টেক্সটের রঙ */
+    border: none; /* বর্ডার সরানো */
+    padding: 10px 20px; /* বাটনের প্যাডিং */
+    border-radius: 5px; /* কোণগুলো গোলাকার */
+    cursor: pointer; /* মাউস হোভার করলে পয়েন্টার চেঞ্জ হবে */
+}
+
+.custom-button:hover {
+    background-color: darkblue; /* হোভার করার সময় রঙ পরিবর্তন */
+}
